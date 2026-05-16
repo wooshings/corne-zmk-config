@@ -14,6 +14,7 @@
             tapping-term-ms = <250>;
             hold-trigger-key-positions = <16 15 14 19 20 21>;
             hold-while-undecided;
+            hold-while-undecided-linger;
         };
     };
 
