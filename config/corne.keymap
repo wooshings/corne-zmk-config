@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     behaviors {
@@ -39,10 +40,10 @@
 
         sys {
             bindings = <
-&none  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)         &kp LG(N5)         &none     &none     &none   &none      &none  &none
-&none  &none       &none       &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &none       &none       &none       &none              &none              &none     &none     &none   &none      &none  &none
-                               &none       &none              &none              &none     &none     &none
+&none  &kp LG(N1)       &kp LG(N2)       &kp LG(N3)       &kp LG(N4)         &kp LG(N5)         &none     &none     &none   &none      &none  &none
+&none  &none            &none            &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&none  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &rgb_ug RGB_TOG    &none     &none     &none   &none      &none  &none
+                                         &none            &none              &none              &none     &none     &none
             >;
         };
     };
