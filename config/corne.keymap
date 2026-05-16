@@ -10,10 +10,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
+            flavor = "balanced";
             tapping-term-ms = <250>;
-            hold-trigger-key-positions = <16 15 14 19 20 21>;
             hold-while-undecided;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 22 27 28 29 30 31 32 33 34 36 37 38 39 40 41>;
         };
     };
 
@@ -40,10 +40,10 @@
 
         sys {
             bindings = <
-&none  &kp LG(N1)       &kp LG(N2)       &kp LG(N3)       &kp LG(N4)         &kp LG(N5)         &none     &none     &none   &none      &none  &none
-&none  &none            &none            &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
-&none  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &rgb_ug RGB_TOG    &none     &none     &none   &none      &none  &none
-                                         &none            &none              &none              &none     &none     &none
+&none            &kp LG(N1)       &kp LG(N2)       &kp LG(N3)       &kp LG(N4)         &kp LG(N5)         &none     &none     &none   &none      &none  &none
+&none            &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none
+&rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &rgb_ug RGB_TOG    &none     &none     &none   &none      &none  &none
+                                                   &none            &none              &none              &none     &none     &none
             >;
         };
     };
