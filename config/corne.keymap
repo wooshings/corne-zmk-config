@@ -35,7 +35,7 @@
 
         jk-escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <250>;
             timeout-ms = <150>;
             layers = <0>;
