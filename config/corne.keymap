@@ -34,10 +34,10 @@
         compatible = "zmk,combos";
 
         jk-escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <16 17>;
+            bindings = <&kp ESC>;
+            key-positions = <17 16>;
             require-prior-idle-ms = <250>;
-            timeout-ms = <150>;
+            timeout-ms = <200>;
             layers = <0>;
         };
     };
