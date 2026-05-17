@@ -30,6 +30,18 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        jk-escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+            require-prior-idle-ms = <250>;
+            timeout-ms = <150>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
