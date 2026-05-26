@@ -56,9 +56,9 @@
 
         num {
             bindings = <
-&none  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp MINUS     &kp N7  &kp N8  &kp N9  &kp EQUAL  &none
-&none  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)     &kp PLUS      &kp N4  &kp N5  &kp N6  &kp SQT    &none
-&none  &kp GRAVE      &kp LBKT      &kp RBKT       &kp LS(LBRC)  &kp LS(RBRC)     &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp FSLH   &none
+&none  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp N7        &kp N8  &kp N9  &kp MINUS         &kp EQUAL  &none
+&none  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)     &kp N4        &kp N5  &kp N6  &kp PLUS          &kp SQT    &none
+&none  &kp TILDE      &kp LBKT      &kp RBKT       &kp LS(LBRC)  &kp LS(RBRC)     &kp NUMBER_1  &kp N2  &kp N3  &kp LS(ASTERISK)  &kp FSLH   &none
                                     &trans         &trans        &trans           &trans        &kp N0  &trans
             >;
         };
